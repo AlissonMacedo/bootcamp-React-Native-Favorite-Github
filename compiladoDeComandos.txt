@@ -1,0 +1,48 @@
+*******************
+Módulo 06 (Primeiro projeto com React Native)
+*******************
+
+[03. Criando projeto]
+npx react-native init modulo06
+react-native run-android
+
+[04. ESLint, Prettier & EditorConfig]
+yarn add eslint -D
+yarn eslint --init
+... To check syntax, find problems, and enforce code style
+... Javascript modules (import/export)
+... React
+... Nenhum selecionado
+... Use a popular style guide
+... Airbnb
+... Javascript
+... Y
+... Y
+Remover package.lock
+yarn
+yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
+
+[05. Configurando Reactotron]
+yarn add reactotron-react-native
+
+[06. React Navigation]
+yarn add react-navigation react-native-gesture-handler
+react-native link react-native-gesture-handler
+
+[08. Styled Components]
+yarn add styled-components
+
+[09. Estilizando formulário]
+yarn add react-native-vector-icons
+react-native link react-native-vector-icons
+react-native run-android
+
+[10. Acessando API do Github]
+yarn add axios
+
+[13. Salvando no storage]
+yarn add @react-native-community/async-storage
+react-native link @react-native-community/async-storage
+
+[14. Realizando navegação]
+yarn add prop-types
