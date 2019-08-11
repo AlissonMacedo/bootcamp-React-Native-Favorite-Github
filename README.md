@@ -7,16 +7,20 @@
 - You can add a github profile to be able to follow
   the repositories she has favorited;
 
-![demo1.](./demo/demo1.png "demo1")
-![demo2.](./demo/demo2.png "demo2")
+<p align="center">
+<img src="./demo/demo1.png" alt="demo1" title="demo1">
+<img src="./demo/demo2.png" alt="demo2" title="demo2">
+</p>
+
 
 ## 💻  Register a profile
 
 - You can listing the favorite repositories of the selected profile.
 
-![demo3.](./demo/demo3.png "demo3")
-![demo4.](./demo/demo4.png "demo4")
-
+<p align="center">
+<img src="./demo/demo3.png" alt="demo3" title="demo3">
+<img src="./demo/demo4.png" alt="demo4" title="demo4">
+</p>
 
 ## 🎩 How it works
 
