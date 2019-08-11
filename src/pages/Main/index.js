@@ -44,7 +44,7 @@ export default class Main extends Component {
     }
   }
 
-  async componentDidUpdate(_, prevState) {
+  componentDidUpdate(_, prevState) {
     const { users } = this.state;
 
     if (prevState.users !== users) {
@@ -107,7 +107,7 @@ export default class Main extends Component {
 
         <List
           data={users}
-          KeyExtractor={user => user.login}
+          keyExtractor={user => user.login}
           renderItem={({ item }) => (
             <User>
               <Avatar source={{ uri: item.avatar }} />
@@ -115,7 +115,7 @@ export default class Main extends Component {
               <Bio>{item.bio}</Bio>
 
               <ProfileButton onPress={() => this.handleNavigate(item)}>
-                <ProfileButtonText>Ver Perfil</ProfileButtonText>
+                <ProfileButtonText>Ver perfil</ProfileButtonText>
               </ProfileButton>
             </User>
           )}
