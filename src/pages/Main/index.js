@@ -57,7 +57,7 @@ export default class Main extends Component {
 
     this.setState({ loading: true });
 
-    const response = await api.get(`/users/${newUser}/`);
+    const response = await api.get(`/users/${newUser}`);
 
     const data = {
       name: response.data.name,
